@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SS Gope</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="smooth-scroll-wrapper">
+        <a href="#section_1">Click</a>
+        <div class="content">
+            <h1>
+                :no time to explain
+            </h1>
+            <div class="img"></div>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem animi ipsam itaque
+                doloribus aliquid, veniam minus laborum doloremque quos ullam. Quas harum iure
+                optio dolorem ea recusandae blanditiis ipsum praesentium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi
+                tenetur sapiente dolor deleniti. Fuga labore pariatur esse. Repudiandae,
+                voluptates nisi soluta architecto inventore hic. Omnis eos expedita sed
+                architecto illum mollitia! Totam aperiam vel consequuntur a, ipsum sapiente sit
+                laborum exercitationem distinctio labore praesentium veniam accusamus, voluptate
+                ratione suscipit!
+            </p>
+            <div class="img"></div>
+
+            <h1>:more than pretty screens</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto suscipit
+                ducimus nostrum, aut minus eius impedit vero numquam est optio reprehenderit
+                itaque quis eligendi quasi repellendus obcaecati neque dolor ipsam nulla
+                praesentium voluptatum. Est assumenda ea voluptatibus! Eaque quo ducimus, unde
+                maxime enim nesciunt debitis voluptatem fuga obcaecati? Aperiam?
+            </p>
+
+            <div class="img"></div>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ea nihil quibusdam
+                repudiandae praesentium quisquam eos, repellendus fugiat dolore! Neque.
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>
+                :no time to explain
+            </h1>
+            <div class="img"></div>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem animi ipsam itaque
+                doloribus aliquid, veniam minus laborum doloremque quos ullam. Quas harum iure
+                optio dolorem ea recusandae blanditiis ipsum praesentium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi
+                tenetur sapiente dolor deleniti. Fuga labore pariatur esse. Repudiandae,
+                voluptates nisi soluta architecto inventore hic. Omnis eos expedita sed
+                architecto illum mollitia! Totam aperiam vel consequuntur a, ipsum sapiente sit
+                laborum exercitationem distinctio labore praesentium veniam accusamus, voluptate
+                ratione suscipit!
+            </p>
+            <div class="img"></div>
+
+            <h1>:more than pretty screens</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto suscipit
+                ducimus nostrum, aut minus eius impedit vero numquam est optio reprehenderit
+                itaque quis eligendi quasi repellendus obcaecati neque dolor ipsam nulla
+                praesentium voluptatum. Est assumenda ea voluptatibus! Eaque quo ducimus, unde
+                maxime enim nesciunt debitis voluptatem fuga obcaecati? Aperiam?
+            </p>
+
+            <div class="img"></div>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ea nihil quibusdam
+                repudiandae praesentium quisquam eos, repellendus fugiat dolore! Neque.
+            </p>
+        </div>
+
+
+        <section id="section_1">
+            <div class="content">
+                <h1>
+                    Section :no time to explain
+                </h1>
+                <div class="img"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem animi ipsam itaque
+                    doloribus aliquid, veniam minus laborum doloremque quos ullam. Quas harum iure
+                    optio dolorem ea recusandae blanditiis ipsum praesentium.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi
+                    tenetur sapiente dolor deleniti. Fuga labore pariatur esse. Repudiandae,
+                    voluptates nisi soluta architecto inventore hic. Omnis eos expedita sed
+                    architecto illum mollitia! Totam aperiam vel consequuntur a, ipsum sapiente sit
+                    laborum exercitationem distinctio labore praesentium veniam accusamus, voluptate
+                    ratione suscipit!
+                </p>
+                <div class="img"></div>
+
+                <h1>:more than pretty screens</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto suscipit
+                    ducimus nostrum, aut minus eius impedit vero numquam est optio reprehenderit
+                    itaque quis eligendi quasi repellendus obcaecati neque dolor ipsam nulla
+                    praesentium voluptatum. Est assumenda ea voluptatibus! Eaque quo ducimus, unde
+                    maxime enim nesciunt debitis voluptatem fuga obcaecati? Aperiam?
+                </p>
+
+                <div class="img"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ea nihil quibusdam
+                    repudiandae praesentium quisquam eos, repellendus fugiat dolore! Neque.
+                </p>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
+    <script>
+        const lenis = new Lenis({
+            duration: 0.8, // Adjust duration for smoother scroll
+            easing: (t) => 1 - Math.pow(1 - t, 4), // Cubic easing (can adjust for different scroll behavior)
+            direction: 'vertical', // Smooth scrolling in the vertical direction
+            gestureDirection: 'vertical', // Scroll gestures are also vertical
+            smooth: true, // Enable smooth scroll
+            mouseMultiplier: 1.0, // Adjust mouse scroll multiplier for more precise control
+            smoothTouch: true, // Enable smooth scrolling on touch devices
+            touchMultiplier: 1.0, // Adjust for touch sensitivity
+            infinite: false, // Disable infinite scroll (set to true if needed)
+        });
+
+        // Animation frame handler to keep smooth scrolling in sync with the browser's refresh rate
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf); // Keep requesting the next animation frame
+        }
+        requestAnimationFrame(raf);
+    </script>
+</body>
+
+</html>
